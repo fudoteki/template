@@ -394,3 +394,115 @@ ul.social li:hover {
     height: 32px;
     border: 1px solid rgba(155,155,155,0.1)
 }
+.widgetCopyright {
+        background: #fafafa;
+      }
+      .widgetCopyright .widgetFooter {
+        padding: 40px 0;
+        font-size: 95%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 40px;
+        text-align: center;
+      }
+      .widgetCopyright .widgetFooter .widget h3 {
+        display: block;
+        margin-bottom: 30px;
+        font-weight: 600;
+        color: rgba(0,0,0,.4);
+      }
+      .widgetCopyright .widgetFooter .widget .btnGroup {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+      }
+      .widgetCopyright .widgetFooter .widget .btnGroup a {
+        display: block;
+        background: #fff;
+        color: rgba(0,0,0,.6);
+        font-weight: 600;
+        border:1px solid rgba(0,0,0,.06);
+        border-radius: 100px;
+        padding: 5px 15px;
+        text-align: center;
+      }
+      .widgetCopyright .widgetFooter .widget .btnGroup a i {
+        display: inline-block;
+        vertical-align: middle;
+        color: var(--dominan);
+        margin-right: 5px;
+        font-size: 160%;
+      }
+      .widgetCopyright .widgetFooter .widget .payShipIcon,
+      .widgetCopyright .widgetFooter .widget .payShipIcon * {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .widgetCopyright .widgetFooter .widget .payShipIcon li {
+        display: inline-block;
+        height: 36px;
+        width: 72px;
+        border:1px solid rgba(0,0,0,.06);
+        margin:3px 2px;
+        background-color: #fff;
+        border-radius: 2px;
+        background-position: center center;
+        background-size: 70% auto;
+        background-repeat: no-repeat;
+      }
+      .widgetCopyright .copyRight {
+        padding: 20px 0;
+        border-top: 1px solid rgba(0,0,0,.06);
+        font-size: 80%;
+        color: rgba(0,0,0,.6);
+      }
+      .widgetCopyright .copyRight .grid {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-gap: 20px;
+      }
+      .widgetCopyright .copyRight .widget:nth-last-child(1) {
+        text-align: right;
+      }
+      .widgetCopyright .copyRight ul {
+        margin-left: 20px;
+      }
+      .widgetCopyright .copyRight ul,
+      .widgetCopyright .copyRight ul * {
+        display: inline-block;
+        vertical-align: baseline;
+        line-height: 0;
+      }
+      .widgetCopyright .copyRight ul li:after {
+        content:'|';
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 90%;
+        opacity: .2;
+        margin:0 10px;
+      }
+      .widgetCopyright .copyRight ul li:last-child:after {
+        display: none;
+      }
+      @media(max-width: 1023px) {
+        .widgetCopyright .widgetFooter {
+          padding: 40px 20px;
+          font-size: 95%;
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-gap: 40px;
+        }
+        .widgetCopyright .copyRight .grid {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-gap: 20px;
+        }
+        .widgetCopyright .copyRight .grid .widget {
+          text-align: center;
+        }
+        .widgetCopyright .copyRight ul {
+          display: block;
+          margin-left: 0;
+          margin-top: 10px;
+        }
+      }
