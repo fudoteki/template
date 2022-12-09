@@ -250,8 +250,8 @@ template {
     font-weight: 900
 }
 
-.social .external-link a:before {
-    content: '\f35d';
+.social .ekoyudi a:before {
+    content: '\f1f9';
     font-family: 'Font Awesome 5 Free';
     font-weight: 900
 }
