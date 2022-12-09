@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateVersion='1.0.1' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'><b:attr name='xmlns' value=''/><b:attr name='xmlns:b' value=''/><b:attr name='xmlns:expr' value=''/><b:attr name='xmlns:data' value=''/>
+  &lt;head&gt;
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    <link expr:href='data:blog.blogspotFaviconUrl' rel='icon' type='image/x-icon'/>
+    <meta expr:content='data:view.description.escaped' name='description'/>
+    <meta expr:content='data:blog.title.escaped' property='og:title'/>
+    <link expr:href='data:view.url.canonical' rel='canonical'/>
+    <meta expr:content='data:blog.url.canonical' property='og:url'/>
+    <meta expr:content='data:view.description.escaped' name='og:description'/>
+    <meta content='https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=w1200' property='og:image'/>
+    <meta content='ekoyudi' property='profile:username'/>
+    <meta content='summary' name='twitter:card'/>
+    <meta expr:content='data:blog.title.escaped' name='twitter:title'/>
+    <meta content='https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=w1200' property='twitter:image'/>
+    <meta expr:content='data:blog.url.canonical' name='twitter:url'/>
+
+    <title><data:view.title.escaped/></title>
+	<link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" rel="stylesheet" type='text/css'/>
+    <link href='https://pro.fontawesome.com/releases/v5.15.4/css/all.css' rel='stylesheet' type='text/css'/>
+    <link href='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap' rel='stylesheet' type='text/css'/>
+    <link href='https://cdn.jsdelivr.net/gh/rianseo/rianseo.github.io/biolink.min.css' rel='stylesheet' type='text/css'/>
+
+    <b:skin version='1.0.1'><![CDATA[/*
+<Variable name="interBold18" description="Inter Bold 18" type="font" default="700 18px Inter, sans-serif" hideEditor="true"  value="700 18px Inter, sans-serif"/>
+<Variable name="interNormal16" description="Inter Normal 16" type="font" default="16px Inter, sans-serif" hideEditor="true"  value="400 16px Inter, sans-serif"/>
+
+<Variable name="keycolor" description="Main Color" type="color" default="#0D0C22"  value="#0D0C22"/>
+<Variable name="startSide" description="Start side in blog language" type="automatic" default="left" hideEditor="true" />
+<Variable name="endSide" description="End side in blog language" type="automatic" default="right" hideEditor="true" />
+
+<Group description="Backgrounds">
+<Variable name="body.link.color" description="Link color" type="color" default="#0D0C22"  value="#0D0C22"/>
+  <Variable name="body.background.height" description="Background height" type="length" min="420px" max="640px" default="480px"  value="480px"/>
+  <Variable name="body.background" description="Background" color="$(body.background.color)" type="background" default="$(color) none repeat scroll top left"  value="$(color) none repeat scroll top left"/>
+  <Variable name="body.background.shadow" description="Background overlay shadow" type="color" default="rgba(0,0,0,.26)"  value="rgba(0, 0, 0 ,0)"/>
+  <Variable name="body.background.color" description="Body background color" type="color" default="#fff"  value="#ffffff"/>
+  <Variable name="posts.background.color" description="Post background color" type="color" default="#fff"  value="#ffffff"/>
+  <Variable name="body.background.blur" description="Background blur" type="length" min="0px" max="50px" default="0px"  value="0px"/>
+</Group>
+
+<Group description="Blog title" selector=".widget_bottom h3">
+  <Variable name="blog.title.font" description="Font" type="font" default="$(interBold18)"  value="bold 18px Inter, sans-serif"/>
+  <Variable name="caption.font" description="Font caption" type="font" default="$(interNormal16)"  value="normal 16px Inter, sans-serif"/>
+</Group>
+
+<Group description="Widths">
+  <Variable name="content.width" description="Content width" type="length" min="600px" max="680px" default="680px"  value="680px"/>
+</Group>
+*/
+
+/*!************************************************
+ * Theme Details 
+ * Name      : BioLink
+ * License   : Free - ekoyudi.com
+ * For Site  : https://link.ekoyudi.com
+ **************************************************/
+.widget_bottom p,.bioLink-text{font-weight:600!important}.widget_bottom img{box-shadow:0px 6px 14px -6px rgb(24 39 75 / 12%), 0px 10px 32px -4px rgb(24 39 75 / 10%), inset 0px 0px 2px 1px rgb(24 39 75 / 5%)}a:link,a:visited,.widget_bottom h3,.widget_bottom p{color:$(body.link.color)}.bg-rianseo{background:$(body.background.color)}.widget_bottom{width:$(content.width)}.widget_bottom h3{font:$(blog.title.font)}.widget_bottom p,.bioLink-text{font:$(caption.font)}.bioLink-shadow{border:0 solid $(posts.background.color);background:$(posts.background.color)}
+@media (max-width:768px){.widget_bottom {width:90%}}.svg-icon-24 {width:32px;height:32px;fill:#0D0C22}.svg-icon-24:hover {fill:#ef5321}.copyright-web .blogger a {font-size:0;display:inline-block}
+]]></b:skin>
+<b:if cond='data:view.isLayoutMode'>
+ <b:template-skin><![CDATA[
+]]></b:template-skin>
+    </b:if>
+&lt;/head&gt;&lt;!--<head/>--&gt;
+
+  <body>
+    <div class='container'>
+    <div class='bg-ekoyudi'/>
+    <b:section class='widget_bottom' id='widget_bottom' name='BioLink v221207 by ekoyudi.com' preferred='yes'>
+      <b:widget id='Image1' locked='true' title='khayflorist' type='Image' version='2' visible='true'>
+        <b:widget-settings>
+          <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5FBAtimN6ZgHD5gs8Ilw2NF553jDmJEiaR6RKKicru1X39VpiWS1ogrEBbHorepPHuMXsbDD7CzDH7yMdtZq0tEian0l4w9qriWAvwCcwFq4UyPOGhKTBjeSgdlk3shqoiCsxNLp8hZ8ivw8YpiQJ2e7Aaqp7sQeFJKG1XUWOi0jNKI4-tfDldvtP/s469/ProfilePicturePhoto</b:widget-setting>
+          <b:widget-setting name='displayHeight'>512</b:widget-setting>
+          <b:widget-setting name='sectionWidth'>790</b:widget-setting>
+          <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
+          <b:widget-setting name='displayWidth'>512</b:widget-setting>
+          <b:widget-setting name='link'>https://khayflorist.id</b:widget-setting>
+          <b:widget-setting name='caption'><![CDATA[Buket Nganjuk, Menyediakan berbagai macam buket bunga dan kerajinan sebagai hadiah]]></b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+  <b:include name='content'/>
+</b:includable>
+        <b:includable id='content'>
+  <div class='widget-content'>
+      <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'>
+        <b:attr cond='data:sourceSet' expr:value='data:sourceSet' name='srcset'/>
+      </img>
+<div class='widget-flex'>
+<b:include name='widget-title'/>
+<svg fill='none' height='16' viewBox='0 0 16 16' width='16'><path clip-rule='evenodd' d='M8 0L9.99182 1.3121L12.3696 1.29622L13.3431 3.48797L15.3519 4.77336L14.9979 7.14888L16 9.32743L14.431 11.1325L14.1082 13.5126L11.8223 14.1741L10.277 16L8 15.308L5.72296 16L4.17772 14.1741L1.89183 13.5126L1.569 11.1325L0 9.32743L1.00206 7.14888L0.648112 4.77336L2.65693 3.48797L3.6304 1.29622L6.00818 1.3121L8 0Z' fill='#0095F6' fill-rule='evenodd'/><path clip-rule='evenodd' d='M10.4036 5.20536L7.18853 8.61884L6.12875 7.49364C5.8814 7.23102 5.46798 7.21864 5.20536 7.466C4.94274 7.71335 4.93036 8.12677 5.17771 8.38939L6.71301 10.0195C6.9709 10.2933 7.40616 10.2933 7.66405 10.0195L11.3546 6.10111C11.6019 5.83848 11.5896 5.42507 11.3269 5.17771C11.0643 4.93036 10.6509 4.94274 10.4036 5.20536Z' fill='white' fill-rule='evenodd'/></svg>
+    </div>
+    <b:if cond='data:caption'>
+      <p class='caption'><data:caption/></p>
+    </b:if>
+  </div>
+</b:includable>
+      </b:widget>
+      <b:widget id='LinkList1' locked='true' title='Media Sosial' type='LinkList' version='2' visible='true'>
+        <b:widget-settings>
+          <b:widget-setting name='sorting'>NONE</b:widget-setting>
+          <b:widget-setting name='text-0'>call</b:widget-setting>
+          <b:widget-setting name='text-1'>whatsapp</b:widget-setting>
+          <b:widget-setting name='text-2'>facebook</b:widget-setting>
+          <b:widget-setting name='text-3'>instagram</b:widget-setting>
+          <b:widget-setting name='text-4'>tiktok</b:widget-setting>
+          <b:widget-setting name='text-5'>email</b:widget-setting>
+          <b:widget-setting name='text-6'>gmaps</b:widget-setting>
+          <b:widget-setting name='link-0'>tel:+6281252868910</b:widget-setting>
+          <b:widget-setting name='link-1'>https://api.whatsapp.com/message/VDIPZ4FYOTYYN1</b:widget-setting>
+          <b:widget-setting name='link-2'>https://facebook.com/khayflorist</b:widget-setting>
+          <b:widget-setting name='link-3'>https://instagram.com/khayflorist</b:widget-setting>
+          <b:widget-setting name='link-4'>https://tiktok.com/@khayflorist</b:widget-setting>
+          <b:widget-setting name='link-5'><![CDATA[mailto:dita@khayflorist.id?subject=NamaAnda-Beli Produk A&body=Halo Dita,]]></b:widget-setting>
+          <b:widget-setting name='link-6'>https://maps.google.com/maps?q=khayflorist</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+  <b:include name='content'/>
+</b:includable>
+        <b:includable id='content'>
+ <div class='widget-content'>
+   <ul class='social'>
+     <b:loop values='data:links' var='link'>
+       <li expr:class='data:link.name'><a expr:href='data:link.target' expr:title='data:link.name'/></li>
+     </b:loop>
+   </ul>
+ </div>
+</b:includable>
+      </b:widget>
+      <b:widget id='LinkList2' locked='true' title='Link Toko' type='LinkList' version='2' visible='true'>
+        <b:widget-settings>
+          <b:widget-setting name='sorting'>NONE</b:widget-setting>
+          <b:widget-setting name='text-0'>Web Resmi</b:widget-setting>
+          <b:widget-setting name='text-1'>Lokasi Toko</b:widget-setting>
+          <b:widget-setting name='text-2'>WhatsApp Catalog</b:widget-setting>
+          <b:widget-setting name='text-3'>Facebook Shop</b:widget-setting>
+          <b:widget-setting name='text-4'>Instagram Shop</b:widget-setting>
+          <b:widget-setting name='text-5'>TikTok Shop</b:widget-setting>
+          <b:widget-setting name='text-6'>Shopee Shop</b:widget-setting>
+          <b:widget-setting name='link-0'>https://khayflorist.id</b:widget-setting>
+          <b:widget-setting name='link-1'>https://maps.google.com/maps?q=khayflorist</b:widget-setting>
+          <b:widget-setting name='link-2'>https://www.whatsapp.com/catalog/6281252868910</b:widget-setting>
+          <b:widget-setting name='link-3'>https://facebook.com/khayflorist</b:widget-setting>
+          <b:widget-setting name='link-4'>https://instagram.com/khayflorist/shop</b:widget-setting>
+          <b:widget-setting name='link-5'>https://tiktok.com/@khayflorist</b:widget-setting>
+          <b:widget-setting name='link-6'>https://shopee.co.id/khayflorist</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+  <b:include name='content'/>
+</b:includable>
+        <b:includable id='content'>
+ <div class='widget-content'>
+   <div class='bioLink'>
+     <b:loop values='data:links' var='link'>
+       <div class='bioLink-item'>
+         <div class='bioLink-shadow'/>
+         <a expr:href='data:link.target' expr:title='data:link.name' target='_blank'><span class='bioLink-text'><data:link.name/></span></a>
+       </div>
+     </b:loop>
+   </div>
+ </div>
+</b:includable>
+      </b:widget>
+    </b:section>
+    </div>
+    
+<script type='text/javascript'>
+  //<![CDATA[
+  function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }
+  loadCSS("https://kit-pro.fontawesome.com/releases/v6.2.1/css/pro.min.css");
+  //]]>
+</script>
+  &lt;!--</body>--&gt;&lt;/body&gt;
+</html>
