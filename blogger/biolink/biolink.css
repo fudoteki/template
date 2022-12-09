@@ -216,28 +216,32 @@ template {
 
 .social .phone a:before {
     content: '\f095';
-    font-family: 'Font Awesome 5 Free'
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900
 }
 
 .social .call a:before {
     content: '\f2a0';
-    font-family: 'Font Awesome 5 Free'
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900
 }
 
 .social .mail a:before {
     content: '\f0e0';
-    font-family: 'Font Awesome 5 Free'
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900
 }
 
 .social .email a:before {
     content: '\f1fa';
-    font-family: 'Font Awesome 5 Free'
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900
 }
 
 .social .maps a:before {
     content: '\f4d7';
     font-family: 'Font Awesome 5 Free';
-    font: var(--fa-font-solid)
+    font-weight: 900
 }
 
 .social .rss a:before {
