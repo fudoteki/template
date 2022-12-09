@@ -236,7 +236,8 @@ template {
 
 .social .maps a:before {
     content: '\f4d7';
-    font-family: 'Font Awesome 5 Free'
+    font-family: 'Font Awesome 5 Free';
+    font: var(--fa-font-solid)
 }
 
 .social .rss a:before {
